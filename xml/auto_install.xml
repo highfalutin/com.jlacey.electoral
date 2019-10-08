@@ -2,6 +2,7 @@
 
 <CustomData>
   <CustomGroups>
+    <!--
     <CustomGroup>
       <name>electoral_districts</name>
       <title>Electoral Districts</title>
@@ -13,6 +14,7 @@
       <collapse_adv_display>0</collapse_adv_display>
       <is_reserved>1</is_reserved>
     </CustomGroup>
+    -->
     <CustomGroup>
       <name>electoral_status</name>
       <title>Electoral Status</title>
@@ -26,6 +28,7 @@
     </CustomGroup>
   </CustomGroups>
   <CustomFields>
+    <!--
     <CustomField>
       <name>electoral_level</name>
       <label>Level</label>
@@ -138,6 +141,7 @@
       <in_selector>1</in_selector>
       <custom_group_name>electoral_districts</custom_group_name>
     </CustomField>
+    -->
     <CustomField>
       <name>electoral_status_error_code</name>
       <label>Error Code</label>
@@ -199,6 +203,7 @@
     </OptionGroup>
   </OptionGroups>
   <OptionValues>
+    <!--
     <OptionValue>
       <name>Country</name>
       <label>Country</label>
@@ -239,6 +244,8 @@
       <is_active>1</is_active>
       <option_group_name>electoral_districts_level_options</option_group_name>
     </OptionValue>
+    -->
+    <!--
     <OptionValue>
       <name>Upper</name>
       <label>Upper</label>
@@ -259,5 +266,6 @@
       <is_active>1</is_active>
       <option_group_name>electoral_districts_chamber_options</option_group_name>
     </OptionValue>
+    -->
   </OptionValues>
 </CustomData>
